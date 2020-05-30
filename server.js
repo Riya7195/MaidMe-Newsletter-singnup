@@ -58,7 +58,7 @@ app.listen(process.env.PORT || 3000, function(){//since we are using the
   //heroku server so the port should be selected by them so we are
   //using process.env.PORT and  applying || in the parenthesis tells us that
   //we can run this app on both heroku server and local host 3000.
-  }
+
   console.log("the server is currently running at port 3000");
 });
 //cd5440f1feffc45cdd7a5f0627b9b05d-us10
