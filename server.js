@@ -15,7 +15,7 @@ app.post("/", function(req, res){
   const LastName = req.body.lastName;
   const Email = req.body.email;
   const Password = req.body.password;
-  const data = {
+  const data = { //creating an api reference with a json object called data
     members: [
       {
         email_address: Email,
